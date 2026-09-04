@@ -57,13 +57,13 @@ export function FinalCta() {
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <a
             href="#inquiry"
-            className="glow-ring inline-flex h-12 items-center rounded-lg border border-primary-tint/30 bg-primary px-6 font-display text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+            className="glow-ring inline-flex h-12 items-center rounded-full border border-primary-tint/30 bg-primary px-6 font-display text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
           >
             Start Your Project
           </a>
           <a
             href="tel:+919618127913"
-            className="inline-flex h-12 items-center rounded-lg border border-border bg-surface px-6 font-display text-sm font-medium text-foreground transition-colors hover:border-input"
+            className="inline-flex h-12 items-center rounded-full border border-border bg-surface px-6 font-display text-sm font-medium text-foreground transition-colors hover:border-input"
           >
             Talk to Us Direct
           </a>
@@ -97,7 +97,7 @@ export function Contact() {
                 href={n.href}
                 className="panel flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
               >
-                <div className="grid h-11 w-11 shrink-0 place-items-center rounded-lg border border-primary/25 bg-primary/10">
+                <div className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl border border-primary/25 bg-primary/10">
                   <Icon name={n.icon} className="text-xl text-primary-tint" />
                 </div>
                 <div className="min-w-0 flex-1">
@@ -192,7 +192,7 @@ export function Contact() {
                 </label>
                 <button
                   type="submit"
-                  className="glow-ring inline-flex h-12 items-center justify-center rounded-lg border border-primary-tint/30 bg-primary px-6 font-display text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 sm:col-span-2"
+                  className="glow-ring inline-flex h-12 items-center justify-center rounded-full border border-primary-tint/30 bg-primary px-6 font-display text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 sm:col-span-2"
                 >
                   Send Inquiry
                   <Icon name="send" className="ml-2 text-lg" />

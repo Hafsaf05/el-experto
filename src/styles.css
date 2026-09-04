@@ -51,7 +51,7 @@
   --container-shell: 82rem;
 
   --shadow-panel: 0 24px 70px oklch(0 0 0 / 0.65);
-  --shadow-glow: 0 0 28px oklch(0.55 0.24 267 / 0.4);
+  --shadow-glow: 0 0 30px oklch(0.50 0.245 297 / 0.45);
 }
 
 :root {
@@ -70,9 +70,9 @@
   --popover: oklch(0.175 0.013 285);
   --popover-foreground: oklch(0.945 0 0);
 
-  --primary: oklch(0.552 0.238 267);
+  --primary: oklch(0.50 0.245 297);
   --primary-foreground: oklch(1 0 0);
-  --primary-tint: oklch(0.755 0.128 268);
+  --primary-tint: oklch(0.775 0.135 300);
 
   --secondary: oklch(0.235 0.016 285);
   --secondary-foreground: oklch(0.945 0 0);
@@ -88,7 +88,7 @@
 
   --border: oklch(1 0 0 / 9%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.552 0.238 267);
+  --ring: oklch(0.50 0.245 297);
 }
 
 @layer base {

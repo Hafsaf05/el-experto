@@ -50,7 +50,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href="#inquiry"
-              className="glow-ring group inline-flex h-12 items-center justify-center rounded-lg border border-primary-tint/30 bg-primary px-6 font-display text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+              className="glow-ring group inline-flex h-12 items-center justify-center rounded-full border border-primary-tint/30 bg-primary px-6 font-display text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
             >
               Get a Free Quote
               <Icon
@@ -60,7 +60,7 @@ export function Hero() {
             </a>
             <a
               href="#services"
-              className="inline-flex h-12 items-center justify-center rounded-lg border border-border bg-surface-low px-6 font-display text-sm font-medium text-foreground transition-colors hover:border-input"
+              className="inline-flex h-12 items-center justify-center rounded-full border border-border bg-surface-low px-6 font-display text-sm font-medium text-foreground transition-colors hover:border-input"
             >
               Explore Services
               <Icon name="south" className="ml-2 text-lg text-muted-foreground" />

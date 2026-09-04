@@ -57,7 +57,7 @@ export function Services() {
                 </span>
               </div>
 
-              <div className="mt-6 grid h-12 w-12 place-items-center rounded-lg border border-primary/25 bg-primary/10">
+              <div className="mt-6 grid h-12 w-12 place-items-center rounded-2xl border border-primary/25 bg-primary/10">
                 <Icon name={s.icon} className="text-2xl text-primary-tint" />
               </div>
 
