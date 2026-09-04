@@ -47,7 +47,7 @@ export function Header() {
           <div className="flex shrink-0 items-center gap-2">
             <a
               href="#inquiry"
-              className="glow-ring inline-flex h-10 items-center justify-center rounded-lg border border-primary-tint/30 bg-primary px-4 font-mono text-xs font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-primary/90"
+              className="glow-ring inline-flex h-10 items-center justify-center rounded-full border border-primary-tint/30 bg-primary px-4 font-mono text-xs font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-primary/90"
             >
               Get a Quote
             </a>
